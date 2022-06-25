@@ -6,7 +6,7 @@
 #    By: kmeixner <konstantin.meixner@freenet.de    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/07 12:10:02 by kmeixner          #+#    #+#              #
-#    Updated: 2022/06/25 13:54:46 by kmeixner         ###   ########.fr        #
+#    Updated: 2022/06/25 13:58:49 by kmeixner         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ CC			=	c++
 
 RM			=	rm
 
-CFLAGS		=	-std=c++98
+CFLAGS		=	-Wall -Wextra -Werror -std=c++98
 
 all:		$(NAME)
 

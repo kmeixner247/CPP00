@@ -6,7 +6,7 @@
 /*   By: kmeixner <konstantin.meixner@freenet.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/25 11:04:59 by kmeixner          #+#    #+#             */
-/*   Updated: 2022/06/25 13:53:53 by kmeixner         ###   ########.fr       */
+/*   Updated: 2022/06/25 13:56:08 by kmeixner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,5 +29,4 @@ int main()
 			test.search();
 		std::cout << "ENTER ADD, SEARCH OR EXIT" << std::endl;
 	}
-	std::cout << "EXITING" << std::endl;
 }
