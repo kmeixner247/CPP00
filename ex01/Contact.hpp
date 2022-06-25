@@ -6,7 +6,7 @@
 /*   By: kmeixner <konstantin.meixner@freenet.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/25 10:50:23 by kmeixner          #+#    #+#             */
-/*   Updated: 2022/06/25 12:53:58 by kmeixner         ###   ########.fr       */
+/*   Updated: 2022/06/25 13:51:42 by kmeixner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ class Contact {
 	void	displayAll();
 	void	fitToTen(std::string str);
 	int		getIndex();
+
 	private:
 	int				index;
 	std::string 	firstName;
