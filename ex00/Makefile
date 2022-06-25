@@ -6,7 +6,7 @@
 #    By: kmeixner <konstantin.meixner@freenet.de    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/07 12:10:02 by kmeixner          #+#    #+#              #
-#    Updated: 2022/06/25 10:37:49 by kmeixner         ###   ########.fr        #
+#    Updated: 2022/06/25 13:52:57 by kmeixner         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,4 +32,4 @@ fclean:		clean
 
 re:			fclean all
 
-.PHONY:		all bonus clean fclean re
+.PHONY:		all clean fclean re

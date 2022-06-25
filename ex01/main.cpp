@@ -6,7 +6,7 @@
 /*   By: kmeixner <konstantin.meixner@freenet.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/25 11:04:59 by kmeixner          #+#    #+#             */
-/*   Updated: 2022/06/25 13:40:18 by kmeixner         ###   ########.fr       */
+/*   Updated: 2022/06/25 13:53:53 by kmeixner         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ int main()
 	PhoneBook test;
 	std::string	line;
 	std::cout << "WELCOME TO THE ONE AND ONLY TELEPHONE BOOK!" << std::endl;
-	std::cout << "ENTER ADD, SEARCH or EXIT" << std::endl;
+	std::cout << "ENTER ADD, SEARCH OR EXIT" << std::endl;
 	while (getline(std::cin, line))
 	{
 		if (!line.compare("EXIT"))
@@ -27,7 +27,7 @@ int main()
 			test.addContact();
 		if (!line.compare("SEARCH"))
 			test.search();
-		std::cout << "ENTER ADD, SEARCH or EXIT" << std::endl;
+		std::cout << "ENTER ADD, SEARCH OR EXIT" << std::endl;
 	}
 	std::cout << "EXITING" << std::endl;
 }
